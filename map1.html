@@ -61,6 +61,7 @@ window.onload = function() {
 					}
 					alert("おめでとう！")
 					map.removeLayer(e.target)
+	map.on("click", (e) => alert(e.latlng))
 }
 
 </script>
